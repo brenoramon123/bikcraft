@@ -1,7 +1,8 @@
+@import url("/bik/css/utilitarios/cores.css");@import url("/bik/css/utilitarios/tipografia.css");
 @import url("/bik/css/header.css");
 @import url("/bik/css/global.css");
 @import url("/bik/css/introducao.css");
-@import url("/bik/css/componentes.css");
+@import url("/bik/css/utilitarios/componentes.css");
 
 
 
