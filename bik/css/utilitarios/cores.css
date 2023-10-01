@@ -27,6 +27,10 @@
     color: #b2b2b2;
 }
 
+.c8{
+    color: var(--c8);
+}
+
 .p1{
     color: var(--p1);
 }
