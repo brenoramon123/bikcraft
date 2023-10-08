@@ -67,6 +67,7 @@
     }
 
     .introducao img{
+        display: none;
         height: 300px;
         width: 100%;
     }

@@ -27,11 +27,23 @@
     color: #b2b2b2;
 }
 
+.c6{
+    color: var(--c6);
+}
+
 .c8{
     color: var(--c8);
 }
 
 .p1{
     color: var(--p1);
+}
+
+.p4{
+    color: var(--p4);
+}
+
+.p5{
+    color: var(--p5);
 }
 

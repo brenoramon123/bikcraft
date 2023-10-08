@@ -18,6 +18,17 @@
     line-height: 1.33;
     font-family: 'Poppins';
     font-weight: 600;
+    max-width: max-content;
+}
+
+.btn.secundario{
+    background: var(--c10);
+    color: var(--c0);
+    transition: .3s;
+}
+
+.btn.secundario:hover{
+    background: var(--c9);
 }
 
 .btn:hover {

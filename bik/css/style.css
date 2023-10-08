@@ -1,10 +1,16 @@
 @import url("/bik/css/utilitarios/cores.css");@import url("/bik/css/utilitarios/tipografia.css");
-@import url("/bik/css/header.css");
+@import url("/bik/css/home/header.css");
 @import url("/bik/css/global.css");
-@import url("/bik/css/introducao.css");
+@import url("/bik/css/home/introducao.css");
 @import url("/bik/css/utilitarios/componentes.css");
 @import url("/bik/css/bicicletas/bicicletas-lista.css");
 @import url("/bik/css/home/tecnologia.css");
+@import url("/bik/css/home/parceiros.css");
+@import url("/bik/css/home/depoimento.css");
+@import url("/bik/css/seguros/seguros.css");
+@import url("/bik/css/home/footer.css");
+
+
 
 
 
