@@ -1,0 +1,121 @@
+.bicicletas-bg:nth-child(odd){
+    box-shadow: inset calc(100vw*0.2) 0em white;
+    background: var(--c11);
+}
+
+.bicicletas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
+
+
+.bicicletas-imagem{
+    position: relative;
+    display: grid;
+}
+
+.bicicletas-imagem span{
+    grid-area: 1/1;
+    background: var(--c12);
+    padding: 8px 16px 8px 8px;
+    display: inline-block;
+    place-self: start end;
+    margin-top: 20px;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.bicicletas-imagem img{
+    grid-area: 1/1;
+}
+
+
+
+/* .bicicletas-imagem span{
+    background: var(--c12);
+    padding: 8px 16px 8px 8px;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+} */
+
+.bicicletas-conteudo{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 20px;
+    align-content: start;
+    
+}
+
+.bicicletas-conteudo h2,
+.bicicletas-conteudo p{
+    grid-column: 1/-1;
+}
+.bicicletas-conteudo h2{
+    margin-bottom: 20px;
+}
+
+.bicicletas-conteudo h2::before{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 8px;
+    background-color: var(--p1);
+    margin-bottom: 8px;
+}
+
+.bicicletas p{
+    margin-bottom: 32px;
+}
+
+.bicicletas a{
+    place-self: end;
+}
+
+.bicicletas li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.bicicletas-conteudo img{
+    margin-right: 8px;
+    width: 24px;
+}
+
+.bicicletas li+li{
+    margin-top: 16px;
+}
+
+@media (max-width:800px){
+    .bicicletas{
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .bicicletas-bg:nth-child(odd){
+        background: var(--c11);
+    }
+}
+
+@media (max-width: 600px){
+    .bicicletas-conteudo{
+        grid-template-columns: 1fr;
+    }
+
+    .bicicletas a{
+        place-self: start;
+    }
+    .bicicletas ul{
+        margin-bottom: 32px;
+        display: grid;
+        font-size: 1rem;
+        grid-template-columns: 1fr 1fr;
+    }
+}
